@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+    "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
